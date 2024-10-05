@@ -59,7 +59,7 @@ tags:
 > 由于常用的安装包**均超过了100MB**，蓝奏云全部无法转载。
 {: .prompt-info}
 
-- [Github直链]([Release 0.17.1 · marktext/marktext (github.com)](https://github.com/marktext/marktext/releases/tag/v0.17.1))
+- [Github直链](https://github.com/marktext/marktext/releases/tag/v0.17.1)
   提供了**Windows**、**macOS**和**Linux**多个版本，**源代码**自然不会缺席
 
 - [百度网盘](https://pan.baidu.com/s/14niqFcbLPWFfOaFIi5Aqvg?pwd=esfq)
