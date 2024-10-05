@@ -2,6 +2,7 @@
 title: "Obsidian全版本"
 description: Markdown编辑器Obsidian的全版本下载方式
 date: 2024-09-24 23:00 +0800
+author: sunjhbill
 last_modified_at: 2024-09-24 23:30 +0800
 tags:
   - 笔记
