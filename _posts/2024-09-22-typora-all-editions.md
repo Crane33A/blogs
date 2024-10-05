@@ -1,6 +1,7 @@
 ---
 title: "Typora全版本"
 description: Markdown编辑器Typora全版本下载方式
+author: sunjhbill
 date: 2024-09-22 15:30 +0800
 tags:
   - 笔记
