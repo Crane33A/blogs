@@ -10,7 +10,7 @@ pin: true
 ---
 
 > 本文目前**尚在汉化中**，如果您急需搭建博客，可转至[**另一篇文章**](https://ai-56cx.github.io/posts/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/#:~:text=%E4%B8%89%E3%80%81%E5%9B%BE%E7%89%87%E4%BD%8D%E7%BD%AE.%20%E9%BB%98%E8%AE%A4)
-{: .prompt-tip}
+{: .prompt-info}
 
 本教程将会指导你如何以 _Chirpy_ 的风格编写博文，它值得你阅读，哪怕你曾经使用过Jekyll，，因为许多特性需要设置一些特定的变量。
 
