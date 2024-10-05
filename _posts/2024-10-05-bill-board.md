@@ -1,7 +1,7 @@
 ---
 title: 公告栏
 description: 浏览本站时的一些即时通知
-author: SunJHBill
+author: sunjhbill
 date: 2024-10-05 17:00:00 +0800
 categories: [非技术,公告]
 tags: [公告]
