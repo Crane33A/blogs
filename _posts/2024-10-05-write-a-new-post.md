@@ -1,6 +1,6 @@
 ---
 title: 如何撰写你的第一篇博文
-author: cotes(受到SunJH的汉化)
+author: cotes
 date: 2024-10-05 16:00:00 +0800
 categories: [博客, 教材]
 tags: [写作]
