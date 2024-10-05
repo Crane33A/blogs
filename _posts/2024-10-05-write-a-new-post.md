@@ -1,41 +1,40 @@
 ---
-title: Writing a New Post
-author: cotes
-date: 2019-08-08 14:10:00 +0800
-categories: [Blogging, Tutorial]
-tags: [writing]
+title: 如何撰写你的第一篇博文
+author: cotes(受到SunJH的汉化)
+date: 2024-10-05 16:00:00 +0800
+categories: [博客, 教材]
+tags: [写作]
 render_with_liquid: false
 ---
 
-This tutorial will guide you how to write a post in the _Chirpy_ template, and it's worth reading even if you've used Jekyll before, as many features require specific variables to be set.
+本教程将会指导你如何以 _Chirpy_ 的风格编写博文，它值得你阅读，哪怕你曾经使用过Jekyll，，因为许多特性需要设置一些特定的变量。
 
-## Naming and Path
+## 命名和文档存储位置
 
-Create a new file named `YYYY-MM-DD-TITLE.EXTENSION`{: .filepath} and put it in the `_posts`{: .filepath} of the root directory. Please note that the `EXTENSION`{: .filepath} must be one of `md`{: .filepath} and `markdown`{: .filepath}. If you want to save time of creating files, please consider using the plugin [`Jekyll-Compose`](https://github.com/jekyll/jekyll-compose) to accomplish this.
+创建一个名为 `年年年年-月月-日日-标题.扩展名`{: .filepath} 的文件并将其放在位于根目录下的 `_posts`{: .filepath}。需要注意， `扩展名`{: .filepath} 必须是 `md`{: .filepath} 或 `markdown`{: .filepath} 中的一个。如果你想节约在创建文件上花费的时间，请接入名为 [`Jekyll-Compose`](https://github.com/jekyll/jekyll-compose) 的扩展以实现。
 
-## Front Matter
+## 前文
 
-Basically, you need to fill the [Front Matter](https://jekyllrb.com/docs/front-matter/) as below at the top of the post:
+首先，你需要填写 [前文](https://jekyllrb.com/docs/front-matter/) ，它位于文章开头，格式如下:
 
 ```yaml
 ---
-title: TITLE
-date: YYYY-MM-DD HH:MM:SS +/-TTTT
-categories: [TOP_CATEGORIE, SUB_CATEGORIE]
-tags: [TAG]     # TAG names should always be lowercase
+title: 标题
+date: 年年年年-月月-日日 时时:分分:秒秒 +/-时区
+categories: [一级分类, 二级分类]
+tags: [标签]     # 如果使用英文标签，必须为全小写
 ---
 ```
 
-> The posts' _layout_ has been set to `post` by default, so there is no need to add the variable _layout_ in the Front Matter block.
+> 博文的 _格式_ 已经默认被设为 `post` 所以在_前文_中没有必要再添加`layout`变量。
 {: .prompt-tip }
 
-### Timezone of Date
+### 时区
 
-To accurately record the release date of a post, you should not only set up the `timezone` of `_config.yml`{: .filepath} but also provide the post's timezone in variable `date` of its Front Matter block. Format: `+/-TTTT`, e.g. `+0800`.
+为了精确地记录文章发布的时间，你不仅应该在`_config.yml`{: .filepath}中设置`timezone`变量，还要在博文前文的`date`变量下提供时区数据，其格式为`+-TTTT`，例如`+0800`就是东八区。
 
-### Categories and Tags
-
-The `categories` of each post are designed to contain up to two elements, and the number of elements in `tags` can be zero to infinity. For instance:
+### 分类与标签
+每篇博文前文中的 `categories` (分类)至多可以容纳两项, 而 `tags` (标签)可为0到无穷个，例如：
 
 ```yaml
 ---
