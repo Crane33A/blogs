@@ -2,6 +2,7 @@
 title: 如何撰写你的第一篇博文
 author: cotes
 date: 2024-10-05 16:00:00 +0800
+description: 在部署完毕的本主题中撰写博文的教程
 categories: [博客, 教程]
 tags: [写作,markdown]
 render_with_liquid: false
