@@ -1,6 +1,7 @@
 ---
 title: 宏/微观经济学课本PDF
 description: "宏观经济学和微观经济学课本PDF(马工程与高鸿业均有)"
+author: sunjhbill
 date: 2024-09-22 20:00 +0800
 tags:
   - 教材
