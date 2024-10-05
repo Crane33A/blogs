@@ -1,6 +1,7 @@
 ---
 title: "Marktext全版本"
 description: Markdown编辑器Marktext全版本下载方式
+author: sunjhbill
 date: 2024-09-23 9:30 +0800
 last_modified_at: 2024-09-24 20:00 +0800
 categories:
