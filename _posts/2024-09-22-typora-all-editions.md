@@ -7,7 +7,7 @@ tags:
   - 笔记
   - markdown
   - 收费可破解
-  - macOS
+  - macos
   - windows
   - linux
 categories:
