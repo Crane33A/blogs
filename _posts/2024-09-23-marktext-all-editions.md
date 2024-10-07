@@ -15,8 +15,7 @@ tags:
   - windows
   - linux
 ---
-
-# 速览
+## 速览
 
 - 软件名称:Marktext
 - 功能:**Markdown文档编辑**
@@ -25,13 +24,13 @@ tags:
 
 
 > 该软件的维护工作似乎**已经暂停**甚至可能**永久停止**。如果您发现它在您的设备上**运行错误**，应该转而使用它的替代品。
- {: .prompt-info}
+ {: .prompt-warning}
 
-# 追加
+## 追加
 
 补充一下[***Typora***、*Obsidian*和Marktext三方比较](https://sunjhbill.github.io/posts/daily-report-20240923/#3)的入口，这对决策将会**很有帮助**
 
-# 简介
+## 简介
 
 作为一个**Markdown编辑器**，Marktext不是最好用的，但是是**最开放的**。
 
@@ -55,7 +54,7 @@ tags:
 
 **(Obsidian是部分免费的，同步等高级功能需另收费，之后的博客里也会提及)**
 
-# 下载
+## 下载
 
 > 由于常用的安装包**均超过了100MB**，蓝奏云全部无法转载。
 {: .prompt-info}

@@ -3,12 +3,15 @@ title: 如何撰写你的第一篇博文
 author: cotes
 date: 2024-10-05 16:00:00 +0800
 description: 在部署完毕的本主题中撰写博文的教程
-categories: [博客, 教程]
-tags: [写作,markdown]
-render_with_liquid: false
+categories:
+  - 博客
+  - 教程
+tags:
+  - 写作
+  - markdown
 pin: true
+render_with_liquid: false
 ---
-
 > 本文目前**尚在汉化中**，如果您急需搭建博客，可转至[**另一篇文章**](https://ai-56cx.github.io/posts/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/#:~:text=%E4%B8%89%E3%80%81%E5%9B%BE%E7%89%87%E4%BD%8D%E7%BD%AE.%20%E9%BB%98%E8%AE%A4)。参见公告栏。
 {: .prompt-info }
 
