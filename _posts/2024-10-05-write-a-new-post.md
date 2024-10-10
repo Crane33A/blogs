@@ -11,6 +11,7 @@ tags:
   - markdown
 pin: true
 render_with_liquid: false
+last_modified_at: 2024-10-11 00:20:00 +0800
 ---
 > 本文目前**尚在汉化中**，如果您急需搭建博客，可转至[**另一篇文章**](https://ai-56cx.github.io/posts/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/#:~:text=%E4%B8%89%E3%80%81%E5%9B%BE%E7%89%87%E4%BD%8D%E7%BD%AE.%20%E9%BB%98%E8%AE%A4)。参见公告栏。
 {: .prompt-info }
@@ -19,7 +20,7 @@ render_with_liquid: false
 
 ## 命名和文档存储位置
 
-创建一个名为 `年年年年-月月-日日-标题.扩展名`{: .filepath} 的文件并将其放在位于根目录下的 `_posts`{: .filepath}。需要注意， `扩展名`{: .filepath} 必须是 `md`{: .filepath} 或 `markdown`{: .filepath} 中的一个。如果你想节约在创建文件上花费的时间，请接入名为 [`Jekyll-Compose`](https://github.com/jekyll/jekyll-compose) 的扩展以实现。
+创建一个名为 `年-月-日-标题.扩展名`{: .filepath} 的文件并将其放在位于根目录下的 `_posts`{: .filepath}。需要注意， `扩展名`{: .filepath} 必须是 `md`{: .filepath} 或 `markdown`{: .filepath} 中的一个。如果你想节约在创建文件上花费的时间，请接入名为 [`Jekyll-Compose`](https://github.com/jekyll/jekyll-compose) 的扩展以实现。
 
 ## 前文
 
@@ -27,14 +28,14 @@ render_with_liquid: false
 
 ```yaml
 ---
-title: 标题
-date: 年年年年-月月-日日 时时:分分:秒秒 +/-时区
+title: 标题 #标题中带有英文方、圆括号等yml文件的特殊符号时，须用英文双引号"将标题括起来
+date: 年-月-日 时:分:秒 +/-时区 # 例如 2024-10-10 10:00:00 +0800
 categories: [一级分类, 二级分类]
 tags: [标签]     # 如果使用英文标签，必须为全小写
 ---
 ```
 
-> 博文的 _格式_ 已经默认被设为 `post` 所以在_前文_中没有必要再添加`layout`变量。
+> 博文的 _layout_ (即格式)已经默认被设为 `post` 所以在_前文_中没有必要再添加`layout`变量。
 {: .prompt-tip }
 
 ### 时区
@@ -51,47 +52,46 @@ tags: [bee]
 ---
 ```
 
-### Author Information
+### 作者信息
 
-The author information of the post usually does not need to be filled in the _Front Matter_ , they will be obtained from variables `social.name` and the first entry of `social.links` of the configuration file by default. But you can also override it as follows:
+作者信息通常无需在 _前文_ 中填写——系统默认取配置文件中的`social.links`的第一个条目和`social.name`作为作者信息，但你也可以参照以下的方法来覆写这些数据：
 
-Adding author information in `_data/authors.yml` (If your website doesn't have this file, don't hesitate to create one).
+在`_data/authors.yml`中以如下格式加入作者信息 (如果你的网站中并没有这一文件，请不要犹豫，立刻创建一个)。
 
 ```yaml
-<author_id>:
-  name: <full name>
-  twitter: <twitter_of_author>
-  url: <homepage_of_author>
+<作者的ID>: # ID是一个有别于你真名的标识符，该标识符会在前文中引入。
+  name: <作者全名>
+  twitter: <作者的推特> #如果没有推特账号，该项可删去。似乎也可改成其他社交账号。
+  url: <作者的主页>
 ```
 {: file="_data/authors.yml" }
 
-And then use `author` to specify a single entry or `authors` to specify multiple entries:
+然后在 _前文_ 中引入关键词`author`来输入单个作者名，或是引入`authors`来输入多个作者名:
 
 ```yaml
 ---
-author: <author_id>                     # for single entry
-# or
-authors: [<author1_id>, <author2_id>]   # for multiple entries
+author: <作者的ID>                     # 对于单个作者
+# 或者
+authors: [<作者1的ID>, <作者2的ID>]   # 对于多个作者
 ---
 ```
 
-Having said that, the key `author` can also identify multiple entries.
+话虽如此，关键词`author`其实也能识别多个作者名。
 
-> The benefit of reading the author information from the file `_data/authors.yml`{: .filepath } is that the page will have the meta tag `twitter:creator`, which enriches the [Twitter Cards](https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started#card-and-content-attribution) and is good for SEO.
+> 让你的作者信息能从`_data/authors.yml`{: .filepath }被读取到的好处是使得网站具备了名为`twitter:creator`的元标签，它使你的[推特卡片](https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started#card-and-content-attribution)更加丰富， 且对你的网站的搜索引擎优化有好处。
 {: .prompt-info }
 
-### Post Description
+### 博文描述
 
-By default, the first words of the post are used to display on the home page for a list of posts, in the _Further Reading_ section, and in the XML of the RSS feed. If you don't want to display the auto-generated description for the post, you can customize it using the `description` field in the _Front Matter_ as follows:
+默认地，博文的开头一小段会被用于在一系列博文的展示界面简述、_更多阅读_ 部分和网站摘要数据流的XML文件中。如果你不想展示系统自动生成的博文的描述，你可以在 _前文_ 中引入`description`关键词来自定义描述，如下：
 
 ```yaml
 ---
-description: Short summary of the post.
+description: 博文的简短总结
 ---
 ```
 
-Additionally, the `description` text will also be displayed under the post title on the post's page.
-
+此外，自定义`description`关键词对应的文本也会被展示在博文界面中标题的下方。
 ## Table of Contents
 
 By default, the **T**able **o**f **C**ontents (TOC) is displayed on the right panel of the post. If you want to turn it off globally, go to `_config.yml`{: .filepath} and set the value of variable `toc` to `false`. If you want to turn off TOC for a specific post, add the following to the post's [Front Matter](https://jekyllrb.com/docs/front-matter/):
