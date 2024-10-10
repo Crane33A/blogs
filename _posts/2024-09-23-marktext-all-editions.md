@@ -28,7 +28,7 @@ tags:
 
 ## 追加
 
-补充一下[***Typora***、*Obsidian*和Marktext三方比较](https://sunjhbill.github.io/posts/daily-report-20240923/#3)的入口，这对决策将会**很有帮助**
+补充一下[***Typora***、*Obsidian*和Marktext三方比较](https://sunjhbill.github.io/posts/daily-report-20240923#3)的入口，这对决策将会**很有帮助**
 
 ## 简介
 
