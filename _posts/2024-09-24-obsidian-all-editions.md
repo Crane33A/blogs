@@ -22,7 +22,7 @@ math: true
 - 功能:Markdown文档编辑
 - 资源情况:免费使用常用功能，高级付费功能无法破解
 
-  [点此查看](https://sunjhbill.github.io/daily-report-20240923/#3)***Typora***、Marktext和*Obsidian*的优劣
+  [点此查看](https://sunjhbill.github.io/daily-report-20240923#3)***Typora***、Marktext和*Obsidian*的优劣
 
 ## 简介
 
