@@ -30,7 +30,7 @@ last_modified_at: 2024-09-23 20:00 +0800
 
 ***Typora***似乎存在着第一时间**没发现的问题**,在一个长文本编辑中它因为**大量的数学公式**卡顿，Obsidian却**没有这个问题**
 
-[点击这里](https://sunjhbill.github.io/daily-report-20240924#3)以查看***Typora***、*Obsidian*和Marktext三种编辑器的优劣
+[点击这里](https://sunjhbill.github.io/blogs/daily-report-20240924#3)以查看***Typora***、*Obsidian*和Marktext三种编辑器的优劣
 
 ## 简介
 
