@@ -28,13 +28,13 @@ tags:
 
 ## 追加
 
-补充一下[***Typora***、*Obsidian*和Marktext三方比较](https://sunjhbill.github.io/posts/daily-report-20240923#3)的入口，这对决策将会**很有帮助**
+补充一下[***Typora***、*Obsidian*和Marktext三方比较](https://sunjhbill.github.io/blogs/posts/daily-report-20240923#3)的入口，这对决策将会**很有帮助**
 
 ## 简介
 
 作为一个**Markdown编辑器**，Marktext不是最好用的，但是是**最开放的**。
 
-关于Markdown是什么，请移步[Typora全版本](https://sunjhbill.github.io/posts/typora-all-editions/)。
+关于Markdown是什么，请移步[Typora全版本](https://sunjhbill.github.io/blogs/posts/typora-all-editions/)。
 
 作为一个经典的**GitHub式开源软件**，它具备全版本的免费下载链接。
 
