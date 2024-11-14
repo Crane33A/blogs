@@ -117,7 +117,7 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: "SunJHBill/sunjhbill.github.io" # <gh-username>/<repo>
+    repo: "SunJHBill/blogs" # <gh-username>/<repo>
     repo_id: "R_kgDOM7vAXw"
     category: "Announcements"
     category_id: "DIC_kwDOM7vAX84CjFVF"
