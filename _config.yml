@@ -14,9 +14,9 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: "SunJHBill's Blog" # the main title
+title: "Crane_33A's Blog" # the main title
 
-tagline: "明日方舟2024年感谢庆典——欢迎回来，拉普兰德" # it will display as the subtitle
+tagline: "请勿扰动棺材板" # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
@@ -26,19 +26,18 @@ description: >- # used by seo meta and the atom feed
 url: ""
 
 github:
-  username: sunjhbill # change to your GitHub username
+  username: crane33a # change to your GitHub username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: SunJHBill
+  name: Crane33_A
   email: sunjhbill@163.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     # - https://twitter.com/username # change to your Twitter homepage
     - https://github.com/sunjhbill # change to your GitHub homepage
     # Uncomment below to add more social links
-    - https://space.bilibili.com/1384022449
     - https://user.qzone.qq.com/2309338332
     # - https://www.linkedin.com/in/username
 
